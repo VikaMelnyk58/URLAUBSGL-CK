@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 9/0px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header {
+  background-image: url(../../img/img-main.png);
+  padding-bottom: 233px;
+  padding-top: 36px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .benefits__item:nth-child(3)::before {
+    background-image: url(../../img/img-main@2x.png);
+  }
+}
+@media (min-device-pixel-ratio: 3), (-webkit-min-device-pixel-ratio: 3), (min-resolution: 288dpi), (min-resolution: 3dppx) {
+  .benefits__item:nth-child(3)::before {
+    background-image: url(../../img/img-main@3x.webp);
+  }
+}
+@media (min-device-pixel-ratio: 3), (-webkit-min-device-pixel-ratio: 3), (min-resolution: 288dpi), (min-resolution: 3dppx) {
+  .benefits__item:nth-child(3)::before {
+    background-image: url(../../img/img-main@3x.webp);
+  }
+}
+.header__logo {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.header__btn {
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
+.header__btn-two {
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 11px 20px;
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 52px;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.header__text {
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.header__btn-main {
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border: 2px solid rgb(255, 78, 80);
+  background-color: rgb(255, 78, 80);
+  cursor: pointer;
+  padding: 13px 10px;
+}
+
+.partner {
+  padding-top: 64px;
+  padding-bottom: 77px;
+}
+
+.partner__title {
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  color: rgb(39, 37, 37);
+}
+
+.partner__img {
+  width: 120px;
+  height: 120px;
+}
+
+.partner__name {
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(102, 102, 102);
+}
+
+.partner__item {
+  width: 225px;
+}/*# sourceMappingURL=main.css.map */
